@@ -1,0 +1,18 @@
+Come funziona il salvataggio periodico in SaveDesktop?
+
+Oltre ai salvataggi manuali, SaveDesktop consente anche di salvare periodicamente la configurazione del desktop. Puoi scegliere tra le seguenti opzioni:
+
+Quotidiano:
+Dopo aver effettuato l'accesso al sistema, SaveDesktop si avvia in background ed esegue il backup della configurazione. Se poi accedi di nuovo in questo giorno, non lo farà di nuovo, perché è già stato creato per quel giorno.
+Settimanalmente:
+SaveDesktop esegue un backup della configurazione ogni lunedì se è selezionato "Settimanale". Se quel giorno il computer non è in esecuzione, SaveDesktop non lo farà il giorno successivo.
+Mensile:
+Se è selezionato "Mensile", SaveDesktop esegue il backup il primo giorno del mese, ad es. 1 maggio, 1 giugno, 1 dicembre, ecc. Come con "Weekly", se il computer non è in esecuzione in quel giorno, SaveDesktop non lo esegue il giorno successivo.
+Mai:
+Non succede niente
+
+Dove sono archiviati i file di salvataggio periodici?
+
+I file di salvataggio periodici vengono archiviati in /home/user/Downloads/SaveDesktop/archives.
+
+In caso di domande, puoi aprire un problema su Github.
